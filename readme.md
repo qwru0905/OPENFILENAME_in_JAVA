@@ -6,7 +6,7 @@ This guide is based on Java 22, Windows 11 64-bit and IntelliJ.
 I think it also works in Java 17~21, Windows 10 64bit.
 1. Go [here](https://github.com/niXman/mingw-builds-binaries/releases) and download x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0.7z
 2. Unzip the file
-3. Place the folder named mingw64 in the folder you unzipped into C:\Programs Files
+3. Place the folder named mingw64 in the folder you unzipped into C:\Program Files
 4. Add the `C:\Program Files\mingw64\bin` to your computer's PATH environment variable
 5. Add new project in Intellij
 6. Add new java file
@@ -17,7 +17,7 @@ public class FileManager {
         try {
             System.loadLibrary("filemanager");
         } catch (UnsatisfiedLinkError e) {
-            System.err.println("Fail to load native library: " + e.getMessage());
+            System.err.println("Failed to load native library: " + e.getMessage());
             e.printStackTrace();
         }
     }
