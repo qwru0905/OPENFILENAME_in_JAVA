@@ -14,7 +14,7 @@ Now selected language is Korean.
 5. Intellij에서 새로운 프로젝트를 만들세요.
 6. 새로운 자바 파일을 만들세요.
 7. 자바 파일 안에 코드를 다음과 같이 적으세요:
-```java
+```java copy
 public class FileManager {
     static {
         try {
@@ -40,7 +40,7 @@ cmd의 작업 위치를 '(프로젝트 위치)\src'로 바꾸세요.
 9. cmd에서 다음과 같은 코드를 쓰세요:
 `javac -h native FileManager.java`
 10. native 디렉토리에서 이름이 filemanager.c인 파일을 만들고 다음과 같이 코드를 작성하세요:
-```C
+```C copy
 #include <jni.h>
 #include <windows.h>
 #include <stdio.h>
