@@ -14,7 +14,7 @@ I think it also works in Java 17~21, Windows 10 64bit.
 5. Add new project in Intellij
 6. Add new java file
 7. Write the following code inside the java file:
-```java
+```java copy
 public class FileManager {
     static {
         try {
@@ -40,7 +40,7 @@ and change the working directory of cmd to '(project location)\src'
 9. Write the following code in cmd:
 `javac -h native FileManager.java`
 10. Create a file named filemanager.c inside the native directory and write the following code:
-```C
+```C copy
 #include <jni.h>
 #include <windows.h>
 #include <stdio.h>
