@@ -5,10 +5,10 @@ Now selected language is Korean.
 [English](readme.md), [**Korean**](readme.ko.md)
 
 ## 하는 방법
-이 가이드는 [여기서부터 해석 다시 진행] is based on Java 22, Windows 11 64-bit and IntelliJ.   
-I think it also works in Java 17~21, Windows 10 64bit.
-1. Go [here](https://github.com/niXman/mingw-builds-binaries/releases) and download x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0.7z
-2. Unzip the file
+이 가이드는 자바 22 버전, 윈도우 11 64비트, 그리고 IntelliJ 기준으로 작성되어 있습니다.   
+아마도 자바 17~21 버전, 윈도우 10 64비트에서도 실행이 될 수 있을 것입니다.
+1. [여기](https://github.com/niXman/mingw-builds-binaries/releases)로 간 뒤 x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0.7z 를 다운받으세요.
+2. 그 파일의 압축을 푸세요.
 3. Place the folder named mingw64 in the folder you unzipped into C:\Program Files
 4. Add the `C:\Program Files\mingw64\bin` to your computer's PATH environment variable
 5. Add new project in Intellij
