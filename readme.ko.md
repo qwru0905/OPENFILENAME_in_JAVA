@@ -10,7 +10,7 @@ Now selected language is Korean.
 1. [여기](https://github.com/niXman/mingw-builds-binaries/releases)로 간 뒤 x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0.7z 를 다운받으세요.
 2. 그 파일의 압축을 푸세요.
 3. 당신이 압축을 푼 파일 안에 이름이 mingw64인 폴더를 C:\Program Files로 옮기세요.
-4. 당신의 환경 변수 PATH에 `C:\Prpgram Files\mingw62\bin`을 추가하세요.
+4. 당신의 환경 변수 PATH에 `C:\Prpgram Files\mingw64\bin`을 추가하세요.
 5. Intellij에서 새로운 프로젝트를 만들세요.
 6. 새로운 자바 파일을 만들세요.
 7. 자바 파일 안에 코드를 다음과 같이 적으세요:
